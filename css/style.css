@@ -1,0 +1,312 @@
+body, html {
+	font-family: 'Montserrat', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	color: #555;
+	font-weight: 400;
+	width: 100% !important;
+	height: 100% !important;
+   
+}
+
+
+
+h1 {
+	color: #e3b854;
+	font-size: 90px;
+	font-weight: 800;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+h2 {
+	margin: 0 0 20px 0;
+	font-weight: 700;
+	font-size: 50px;
+	color:#e3b854;
+	
+}
+h3 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+h4 {
+	font-size: 24px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+
+}
+h5 {
+	font-weight: 700;
+	line-height: 20px;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+}
+p.intro {
+	margin: 12px 0 0;
+	line-height: 24px;
+    
+}
+a {
+	color: #222;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #000;
+}
+ul, ol {
+	list-style: none;
+}
+ul, ol {
+	padding: 0;
+	
+}
+hr {
+	height: 6px;
+	width: 70px;
+	position: relative;
+	background: #444;
+	margin-bottom: 20px;
+	margin-left: 0;
+	border: 0;
+}
+
+
+a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+}
+.section-title {
+	margin-bottom: 40px;
+}
+.btn-custom {
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	background-color: transparent;
+	border: 2px solid #e3b854;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 18px;
+	border-radius: 0;
+	margin-top: 10px;
+	margin-right: 30px;
+	transition: all 0.5s;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	color: black;
+	background-color: #e3b854;
+}
+
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 60px;
+	background: url(../img/portfolio/me3.JPG) repeat right top;
+	background-size: cover;
+}
+
+.intro .fa {
+	font-size: 94px;
+	margin-bottom: 40px;
+	color: #fff;
+}
+.intro p {
+	color: white;
+	margin: 10px 0 20px 0;
+	font-size: 22px;
+}
+header .intro-text {
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+
+#portfolio {
+	padding: 10px 0 100px 0;
+}
+.categories {
+	margin-bottom: 60px;
+}
+ul.cat li {
+	display: inline-block;
+}
+ol.type li {
+	display: inline-block;
+	margin-right: 20px;
+}
+ol.type li a {
+	font-family: 'Montserrat', sans-serif;
+	color: #444;
+	font-size: 14px;
+	padding: 10px 20px;
+	border: 2px solid #444;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+ol.type li a.active {
+	background: #444;
+	color: #eee;
+}
+ol.type li a:hover {
+	background: #444;
+	color: #eee;
+}
+.isotope-item {
+	z-index: 2
+}
+.isotope-hidden.isotope-item {
+	z-index: 1
+}
+
+.isotope-item {
+	margin-right: -1px;
+	
+	backface-visibility: hidden;
+	padding: 0 10px;
+}
+
+}
+.isotope .isotope-item {
+
+	transition-property: transform, opacity;
+}
+.portfolio-item {
+	margin: 10px 0;
+
+	transition: all 0.5s ease-out;
+}
+.portfolio-item .hover-bg {
+	overflow: hidden;
+	position: relative;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #333;
+	background: rgba(227, 184, 84, 0.75);
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text .overlay-caption {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.hover-bg .hover-text .overlay-caption .overlay-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+/* Contact Section */
+#contact {
+	padding: 60px 0 60px 0;
+	background: black;
+}
+#contact h2 {
+	font-weight: 400;
+	color: #e3b854;
+	margin: 40px 0;
+}
+#contact img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:  30px; 
+  width: 210px ;
+	margin: 0px 5px 0px 0px;
+}
+#contact p {
+	color: white;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+#contact .social {
+	margin-top: 30px;
+}
+#contact .social ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+#contact .social i.fa {
+	font-size: 50px;
+	padding: 10px;
+	color: #e3b854;
+	transition: all 0.3s;
+}
+#contact .social i.fa:hover {
+	color: white;
+}
+#contact form {
+	padding: 0;
+}
+#contact .text-danger {
+	color:#e3b854 ;
+	text-align: left;
+}
+label {
+	font-size: 12px;
+	font-weight: 400;
+	float: left;
+}
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 2;
+	color: white;
+	background-color: #444;
+	background-image: none;
+	border: 0;
+	border-radius: 10;
+	box-shadow: none;
+	transition: none;
+}
+#contact .form-control:focus {
+	border-color: #999;
+	outline: 0;
+	box-shadow: transparent;
+}
+.form-control::-webkit-input-placeholder {
+color: #777;
+}
+.form-control:-moz-placeholder {
+color: #777;
+}
+.form-control::-moz-placeholder {
+color: #777;
+}
+.form-control:-ms-input-placeholder {
+color: #777;
+}
+#contact .btn-default {
+	font-weight: 400;
+	color: white;
+	background-color: transparent;
+	border: 3px solid #666;
+	padding: 10px 20px;
+	margin: 0;
+	font-size: 20px;
+	border-radius: 0;
+	margin-top: 20px;
+	transition: all 0.3s;
+}
+#contact .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	background-color: #e3b854;
+	color: white;
+}
+/* Footer Section*/
+#footer {
+	background: #262626;
+	padding: 50px 0 20px 0;
+}
+#footer p {
+	font-size: 15px;
+	color: white;
+}
